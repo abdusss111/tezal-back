@@ -1,10 +1,10 @@
 package db
 
 import (
-	"log"
+	"github.com/abdusss111/go-user-service_test-task/config"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
-	"github.com/abdusss111/go-user-service_test-task/config/config"
+	"log"
 )
 
 var DB *sqlx.DB

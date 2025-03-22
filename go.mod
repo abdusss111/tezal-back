@@ -1,6 +1,6 @@
 module github.com/abdusss111/go-user-service_test-task
 
-go 1.24.0
+go 1.24
 
 require (
 	github.com/gorilla/mux v1.8.1 // indirect

@@ -1,0 +1,33 @@
+# Binaries
+/main
+*.exe
+*.out
+*.o
+
+# Dependency files
+/vendor/
+go.sum
+go.mod
+
+# Build artifacts
+*.a
+*.so
+*.dll
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.iml
+
+# Docker related
+docker-compose.override.yml
+.env
+
+# PostgreSQL data (if mounted locally)
+pgdata/

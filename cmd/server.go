@@ -24,5 +24,5 @@ func main() {
 	r.HandleFunc("/users", handler.UpdateUser).Methods("PUT")
 
 	log.Println("Server is running on port 8080")
-	http.ListenAndServe(":8080", r)
+	http.ListenAndServe("0.0.0.0:8080", r)
 }

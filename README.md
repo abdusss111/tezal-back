@@ -76,6 +76,3 @@ go test ./...
 - Make sure PostgreSQL is running before starting the app.
 - If using Docker, ensure no other services are using port `5432`.
 
----
-Enjoy coding! 🚀
-

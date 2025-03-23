@@ -15,7 +15,7 @@ A simple user management service built with Golang and PostgreSQL.
 - **SQLX** (Database interactions)
 
 ## Prerequisites
-- [Go 1.22+](https://go.dev/doc/install)
+- [Go 1.24](https://go.dev/doc/install)
 - [Docker & Docker Compose](https://www.docker.com/get-started)
 - [PostgreSQL](https://www.postgresql.org/download/) (if running without Docker)
 

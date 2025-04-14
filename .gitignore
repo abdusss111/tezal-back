@@ -27,7 +27,7 @@ go.mod
 
 # Docker related
 docker-compose.override.yml
-.env
+*.env
 
 # PostgreSQL data (if mounted locally)
 pgdata/

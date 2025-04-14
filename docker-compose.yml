@@ -1,0 +1,33 @@
+version: '3.7'
+
+services:
+  CI_PROJECT_NAME_VALUE:
+    container_name: qaqaz
+    image: qaqaz-ordasy
+    restart: unless-stopped
+    environment:
+      ENV: development
+      PORT: 4000
+      LOG_LEVEL: debug
+      DB_HOST: 206.189.52.118
+      DB_PORT: 5432
+      DB_USERNAME: postgres
+      DB_PASSWORD: devpurposeonly
+      DB_NAME: eqshare-db
+      DB_SSL_MODE: disable
+      KEYCLOAK_HOST: https://auth.itdev.group
+      KEYCLOAK_PORT: 443
+      KEYCLOAK_REALM: ondeu
+      SPACES_ENDPOINT: https://ams3.digitaloceanspaces.com
+      SPACES_BUCKET: ondeu-file-storage
+      SPACES_CLIENT_NAME: ondeu-back
+      SPACES_CLIENT_SECRET: TlC+V4RBwxYvhqJwrx839/nb1ONsRnBcnLnuPDyK+8Y
+      SPACES_CLIENT_KEY: DO0094V2JWJRVC3ZT43Q
+      KEYCLOAK_ADMIN_CLIENT_ID: ondeu-admin
+      KEYCLOAK_ADMIN_CLIENT_SECRET: tknqT8AQYGW6lBVr6BIIqwB48cjHqhQ7
+    ports:
+      - 4000:4000
+    logging:
+      options:
+        max-size: 100m
+        max-file: 5

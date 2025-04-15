@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "622519178550",
+    "project_id": "eqshare-4cee7",
+    "storage_bucket": "eqshare-4cee7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622519178550:android:d7b5621e514484fc100f97",
+        "android_client_info": {
+          "package_name": "com.mezet.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622519178550-ahhj7g458rpbjjdp948hjv1ibbl0kaih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYgx1Cl7eIEe4a4pn4IxUZWG6rZdHo8XA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622519178550-ahhj7g458rpbjjdp948hjv1ibbl0kaih.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "622519178550-4fcnupe1qfsa2c4bbbgivth0omf6fk7b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authorizationAppTask"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

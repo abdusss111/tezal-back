@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mezet.online",
+      "sha256_cert_fingerprints":
+      ["0F:D0:8F:C8:BC:3C:B2:C4:3E:64:00:04:4A:88:75:42:1D:45:49:DE:A3:8D:34:25:63:12:93:18:CB:EE:78:41"]
+    }
+  }]

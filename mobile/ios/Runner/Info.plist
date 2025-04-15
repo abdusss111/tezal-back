@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mezet</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>authorization_app_task</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FlutterDeepLinkingEnabled</key>
+	<true/>
+	<key>INIntentsSupported</key>
+	<array>
+		<string>Intent</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tel</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Для возможности сфотографировать оборудование или спецтехнику, а также для создания аватара пользователя.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Для показа ближайших объявлений вокруг пользователя и для навигации в сторону заказа.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Для диктовки текста в приложении. Эта функция позволяет пользователю записывать текст с помощью голоса.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Для выбора фото, если нечего сфотографировать, или для выбора аватара пользователя.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>location</string>
+  		<string>fetch</string>
+	</array>
+	<key>NSMotionUsageDescription</key>
+	<string>Это приложение использует данные о движении для повышения точности определения местоположения и определения того, двигаетесь вы или стоите на месте.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Ваше местоположение отслеживается, пока приложение открыто, для предоставления персонализированных услуг.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Ваше местоположение отслеживается в фоновом режиме для обеспечения непрерывного отслеживания даже при закрытии приложения.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Ваше местоположение отслеживается постоянно для поддержки функций реального времени.</string>
+	<key>UILaunchImageFile~iphone</key>
+	<string>Использовать фото</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:mezet.online</string>
+	</array>
+</dict>
+</plist>

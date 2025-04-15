@@ -34,3 +34,4 @@ pgdata/
 
 
 firebase_env.json
+.DS_Store

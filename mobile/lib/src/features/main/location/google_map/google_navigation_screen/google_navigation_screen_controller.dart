@@ -150,7 +150,7 @@ class GoogleNavigationScreenController extends AppSafeChangeNotifier {
       log('Строим маршрут от ${_currentPosition!.latitude}, ${_currentPosition!.longitude} до ${destinationGeo.latitude}, ${destinationGeo.longitude}');
 
       final String url =
-          "https://routes.googleapis.com/directions/v2:computeRoutes?key=AIzaSyC45LiL7vakqWnbrhL4xYDkjE2pE0jk5Fw";
+          "https://routes.googleapis.com/directions/v2:computeRoutes?key=API_KEY";
 
       final HttpClientRequest request = await HttpClient().postUrl(Uri.parse(url));
       request.headers.set('Content-Type', 'application/json');

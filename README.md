@@ -6,8 +6,6 @@ Tezal is a mobile application connecting equipment owners with renters, streamli
 
 Tezal provides a dual-role platform serving both equipment renters and owners. The platform allows users to browse, search, book, and list equipment within a streamlined interface customized for each user role.
 
-![Tezal Banner](https://via.placeholder.com/800x200?text=Tezal+Equipment+Rental+Platform)
-
 ## 🚀 Core Features
 
 ### User Management
